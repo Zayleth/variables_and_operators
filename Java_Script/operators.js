@@ -28,7 +28,7 @@ let x = 1 + (a *= 2); // 5
 
 
 
-// Type conversions
+// Type conversions.
 // What are results of these expressions?
 
 "" + 1 + 0 // "10"
@@ -45,6 +45,7 @@ true + false // 1
 null + 1 // 1 (null becomes 0 after the numeric conversion)
 undefined + 1 // NaN (undefined becomes NaN after the numeric conversion)
 " \t \n" - 2 // -2 (\t \n similarly to an empty string, becomes 0.)
+
 
 
 
