@@ -30,14 +30,12 @@ alert( admin ); // "John"
 
 
 
-
 // Giving the right name
 // 1. Create a variable with the name of our planet. How would you name such a variable?
 // Create a variable to store the name of a current visitor to a website. How would you name that variable?
 
 let eart_planet = '';
 let current_visitor_name = '';
-
 
 
 
@@ -55,4 +53,4 @@ const BIRTHDAY = '18.04.1982'; // make birthday uppercase?
 const AGE = someCode(BIRTHDAY); // make age uppercase?
 */
 
-const BIRTHDAY = '18.04.1982'; // constant value that does not change over time
+const BIRTHDAY = '18.04.1982'; // constant value that does not change over time.
