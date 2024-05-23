@@ -79,13 +79,13 @@ let result2 = 100 / 2 * 6;
 result *= result2 // 4633.333333333333
 
 // 2. Format result so that it has two decimal places and store it in a variable called finalResult.
-let finalResult = result.toFixed(2); //'4633.33'
+let finalResultt = result.toFixed(2); //'4633.33'
 
 // typeof finalResult
 // 'string'
 
 // Check the data type of finalResult using typeof. If it's a string, convert it to a number type and store the result in a variable called finalNumber.
-let finalNumber = Number(finalResult);
+let finalNumber = Number(finalResultt);
 
 // typeof finalNumber
 // 'number'
