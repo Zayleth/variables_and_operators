@@ -2,9 +2,9 @@
 
 // TASKS
 
-// The postfix and prefix forms
+// 1. The postfix and prefix forms.
 // What are the final values of all variables a, b, c and d after the code below?
-//  let a = 1, b = 1;
+// let a = 1, b = 1;
 
 let c = ++a; // ?
 let d = b++; // ?
@@ -17,7 +17,7 @@ let d = b++; // ?
 
 
 
-// Assignment result
+// 2. Assignment result.
 // What are the values of a and x after the code below?
 
 let a = 2;
@@ -28,7 +28,7 @@ let x = 1 + (a *= 2); // 5
 
 
 
-// Type conversions.
+// 3. Type conversions.
 // What are results of these expressions?
 
 "" + 1 + 0 // "10"
@@ -49,7 +49,7 @@ undefined + 1 // NaN (undefined becomes NaN after the numeric conversion)
 
 
 
-// Fix the addition
+// 4. Fix the addition.
 // Here’s a code that asks the user for two numbers and shows their sum. It works incorrectly. The output in the example below is 12 (for default prompt values). 
 // Why? Fix it. The result should be 3.
 
