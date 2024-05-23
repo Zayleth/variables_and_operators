@@ -13,30 +13,29 @@ y = 50;
 ctx.fillStyle = 'green';
 ctx.fillRect(10, 10, x, y);
 
-// using arithmetic operator.
-//Change the line that calculates x so the box is still 50px wide, but the 50 is calculated using the numbers 43 and 7 and an arithmetic operator.
+// Using arithmetic operator.
+// Change the line that calculates x so the box is still 50px wide, but the 50 is calculated using the numbers 43 and 7 and an arithmetic operator.
 x = 43 + 7;
 
-//Change the line that calculates y so the box is 75px high, but the 75 is calculated using the numbers 25 and 3 and an arithmetic operator.
+// Change the line that calculates y so the box is 75px high, but the 75 is calculated using the numbers 25 and 3 and an arithmetic operator.
 y = 25 * 3;
 
-//Change the line that calculates x so the box is 250px wide, but the 250 is calculated using two numbers and the remainder (modulo) operator.
+// Change the line that calculates x so the box is 250px wide, but the 250 is calculated using two numbers and the remainder (modulo) operator.
 x = 500 / 2;
 
-//Change the line that calculates y so the box is 150px high, but the 150 is calculated using three numbers and the subtraction and division operators.
+// Change the line that calculates y so the box is 150px high, but the 150 is calculated using three numbers and the subtraction and division operators.
 y = (850 - 550) / 2;
 
 //Change the line that calculates x so the box is 200px wide, but the 200 is calculated using the number 4 and an assignment operator.
 x -= 4;
 
-//Change the line that calculates y so the box is 200px high, but the 200 is calculated using the numbers 50 and 3, the multiplication operator, and the addition assignment operator.
+// Change the line that calculates y so the box is 200px high, but the 200 is calculated using the numbers 50 and 3, the multiplication operator, and the addition assignment operator.
 y = 50;
 y *= 3;
 y += 50;
 
 
-
-
+// -----------------------------------------------
 
 
 // Test your skills: Math
@@ -97,8 +96,6 @@ let finalNumber = Number(finalResultt);
 
 // Math 3
 // There are three groups, each consisting of a statement and two variables. For each one, write a test that proves or disproves the statement made.
-
-
 // Statement 1: The elephant weighs less than the mouse
 const eleWeight = 1000;
 const mouseWeight = 2;
