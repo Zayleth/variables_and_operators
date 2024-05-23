@@ -15,26 +15,26 @@
 */
 
 // Exercise:
-// Multiply 10 with 5, and alert the result:
-alert(10 * 5);
+// 1. Multiply 10 with 5, and alert the result:
+alert(10 * 5); // 50
 
 
-//Divide 10 by 2, and alert the result:
-alert(10 / 2);
+// 2. Divide 10 by 2, and alert the result:
+alert(10 / 2); // 5
 
-//Alert the remainder when 15 is divided by 9.
-alert(15 % 9);
+// 3. Alert the remainder when 15 is divided by 9.
+alert(15 % 9); // 6
 
-// Use the correct assignment operator that will result in x being 15 (same as x = x + y).
-
-x = 10;
-y = 5;
-
-x += y;
-
-// Use the correct assignment operator that will result in x being 50 (same as x = x * y).
+// 4. Use the correct assignment operator that will result in x being 15 (same as x = x + y).
 
 x = 10;
 y = 5;
 
-x *= y;
+x += y; // 15. Addition assignment
+
+// 5. Use the correct assignment operator that will result in x being 50 (same as x = x * y).
+
+x = 10;
+y = 5;
+
+x *= y; // 50. Multiplication assignment
